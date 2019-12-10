@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="#FDF3F3"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="45dp"
+        android:text="Add new skill"
+        android:textColor="@color/colorAccent"
+        android:textSize="40dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/skill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ex: java, android, etc."
+        android:inputType="textMultiLine"
+        android:layout_margin="45dp"/>
+
+    <Button
+        android:id="@+id/addSkill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnAddSkills"
+        android:text="Add Skill"
+        android:layout_gravity="right"
+        android:background="@color/colorAccent"
+        android:layout_margin="45dp"/>
+</LinearLayout>

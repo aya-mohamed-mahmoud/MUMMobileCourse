@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="100dp">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"></Space>
+
+    <TextView
+        android:id="@+id/contact_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#0A0A0A"
+        android:padding="5dp"
+        android:text="@string/contactus_email" />
+
+    <TextView
+        android:id="@+id/contact_linkedin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#0A0A0A"
+        android:padding="5dp"
+        android:text="@string/contactus_linkedin" />
+
+    <TextView
+        android:id="@+id/contact_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#0A0A0A"
+        android:padding="5dp"
+        android:text="@string/contactus_address" />
+
+    <TextView
+        android:id="@+id/github_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/github_tv" />
+    <TextView
+        android:id="@+id/github"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openGithub"
+        android:padding="5dp"
+        android:text="@string/github" />
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/web_view"/>
+</LinearLayout>

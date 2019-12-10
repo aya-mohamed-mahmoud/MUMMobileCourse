@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1.5">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"></Space>
+
+    <TextView
+        android:id="@+id/company_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:text="@string/company_name"
+        android:textColor="#0A0A0A"
+        android:padding="5dp"
+        android:textSize="18dp" />
+
+
+    <TextView
+        android:id="@+id/task_performed_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.16"
+        android:text="@string/task_performed"
+        android:textColor="#0A0A0A"
+        android:padding="5dp"
+        android:textSize="18dp" />
+
+
+    <TextView
+        android:id="@+id/work_achievements_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.16"
+        android:text="@string/work_achievements"
+        android:textColor="#0A0A0A"
+        android:padding="5dp"
+        android:textSize="18dp" />
+
+
+    <TextView
+        android:id="@+id/company_name2_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.16"
+        android:text="@string/company_name_2"
+        android:textColor="#0A0A0A"
+        android:padding="5dp"
+        android:textSize="18dp" />
+
+
+    <TextView
+        android:id="@+id/task_performed_2_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.16"
+        android:text="@string/task_performed_2"
+        android:textColor="#0A0A0A"
+        android:padding="5dp"
+        android:textSize="18dp" />
+
+
+    <TextView
+        android:id="@+id/work_achievements2_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.16"
+        android:text="@string/work_achievements_2"
+        android:textColor="#0A0A0A"
+        android:padding="5dp"
+        android:textSize="18dp" />
+
+</LinearLayout>

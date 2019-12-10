@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Resume Builder</string>
+    <string name="action_info">Info</string>
+    <string name="action_details">More Details</string>
+    <string name="action_contact">Contact me</string>
+    <string name="action_add_skills">Add skills</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="applicant_name">Austin Bronson</string>
+    <string name="brief_description">
+        Talented solution developer with more than 4 years of experience and extensive
+        education in full stack application development following modern software development
+        life cycle (SDLC) methodologies. Well-trained in the use of advanced programming
+        technologies, focused on Java-based tools such as JavaFX, Hibernate,
+        Oracle ATG, Servlet, and JSP. Able to design and develop optimized databases
+        using Oracle, MySQL, and PostgreSQL, while applying industry best practices to write
+        readable, efficient code.</string>
+
+    <string name="company_name">
+        ETISALAT EGYPT, New Cairo, Egypt · 2018-2019 Telecommunications service provider.
+        ATG Java Developer Used ATG framework to enhance e-commerce system, adding new features to expand project scope.
+</string>
+
+    <string name="task_performed">
+       Tasks Performed:
+       Added new features and orders to e-commerce system by creating views in JSP and Servlet and
+       Handled integration between E-Shop and other systems to complete the ordering process.
+   </string>
+
+    <string name="work_achievements">
+      Achievements:
+       Created special offers and events such as Black Friday, ensuring system uptime and accuracy during a high volume of orders.
+       Technologies Used: Java, ATG Framework, Servlet, JSP, HTML5, CSS3, JavaScript, jQuery, AJAX, SQL, Eclipse, SVN, Windows.
+    </string>
+
+
+    <string name="company_name_2">
+        WE COMPANY, Smart Village, Egypt · 2015-2018
+        Telecommunications service provider.
+        Full Stack Java Developer
+        Developed back-end and front-end components using Java and Angular.
+    </string>
+
+    <string name="task_performed_2">
+        Tasks Performed:
+         Managed notification system which sends reminder and offer messages to customers and
+         Developed system to calculate reseller commissions.
+        </string>
+
+    <string name="work_achievements_2">
+        Achievements:
+       Contributed to developing system for agents to send messages to customers manually, such as password resets and special offers. System exports statistical spreadsheets for financial analysis.
+       Technologies Used: Java, Hibernate, Angular, Servlet, JSP, HTML5, CSS3, JavaScript, jQuery, JSON, AJAX, REST, SOAP, SQL, PostgreSQL, Eclipse, Git, Maven, Ant, JUnit, Sonar, JACOC
+     </string>
+
+
+    <string name="contactus_address">Address: 1000 N 4th St. Fairfield,Iowa 52557 641-819-1029 </string>
+
+    <string name="contactus_email">Email: Austin_Bronson@gmail.com</string>
+
+    <string name="contactus_linkedin">LinkedIn: www.linkedin.com/in/Austin_Bronson</string>
+
+    <string name="github_tv">Github:</string>
+
+    <string name="github">http://github.com/aya-mohamed-mahmoud</string>
+
+</resources>
